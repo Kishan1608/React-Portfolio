@@ -20,6 +20,12 @@ const data = [
     github: 'https://inquisitive-dango-6fd38d.netlify.app/'
   },
   {
+    id: 5,
+    image: portfolio5,
+    title: 'Anjenaya Wealth Management',
+    github: 'https://www.anjenayawealth.com/'
+  },
+  {
     id: 3,
     image: portfolio3,
     title: 'Aris Form',
@@ -30,13 +36,8 @@ const data = [
     image: portfolio4,
     title: 'Theater Management System',
     github: 'https://github.com/Kishan1608/TruckLoader.git'
-  },
-  {
-    id: 5,
-    image: portfolio5,
-    title: 'College Management',
-    github: 'https://github.com/Kishan1608/college-website.git'
   }
+  
 ]
 
 const Portfolio = () => {
