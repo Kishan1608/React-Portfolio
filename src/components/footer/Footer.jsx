@@ -5,10 +5,10 @@ import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Kishan</a>
+      <a href="#about" className='footer__logo'>Kishan</a>
 
       <ul className="permalinks">
-        <li><a href="#">Home</a></li>
+        <li><a href="#about">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
@@ -18,9 +18,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.facebook.com/profile.php?id=100007618607929" target="_blank"> <BsFacebook/> </a>
-        <a href="https://www.instagram.com/kisna_08_/" target="_blank"> <BsInstagram/> </a>
-        <a href="https://twitter.com/Kishan__Chauhan" target="_blank"> <BsTwitter/> </a>
+        <a href="https://www.facebook.com/profile.php?id=100007618607929" target="_blank" rel="noreferrer" > <BsFacebook/> </a>
+        <a href="https://www.instagram.com/kisna_08_/" target="_blank" rel="noreferrer" > <BsInstagram/> </a>
+        <a href="https://twitter.com/Kishan__Chauhan" target="_blank" rel="noreferrer" > <BsTwitter/> </a>
       </div>
 
       <div className="footer__copyright">
