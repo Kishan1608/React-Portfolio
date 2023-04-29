@@ -16,14 +16,14 @@ const data = [
   {
     id: 2,
     image: portfolio2,
-    title: 'Dating App',
-    github: 'https://github.com/Kishan1608/Dating-App.git'
+    title: 'DALLE 2.0',
+    github: 'https://inquisitive-dango-6fd38d.netlify.app/'
   },
   {
     id: 3,
     image: portfolio3,
-    title: 'FastFood Corner',
-    github: 'https://github.com/Kishan1608/faastfood.github.io.git'
+    title: 'Aris Form',
+    github: 'https://github.com/ronakkaria01/aris-forms.git'
   },
   {
     id: 4,

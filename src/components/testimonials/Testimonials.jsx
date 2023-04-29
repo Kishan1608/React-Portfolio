@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css';
-import AVTR1 from '../../assets/avatar1.jpg'
+import AVTR1 from '../../assets/avatar1.jpeg'
 import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR4 from '../../assets/avatar4.jpeg'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,23 +17,23 @@ import { Pagination } from "swiper";
 
 const data = [
   {
-    avatar: AVTR1,
-    name: 'Romy Taormina',
+    avatar: AVTR2,
+    name: 'Mayank Sharma',
     review: 'Always available, extremely knowledgeable, and a tremendous "can-do" attitude. Without any hesitation... highly recommended.'
   },
   {
-    avatar: AVTR2,
-    name: 'Mohd Ammar',
+    avatar: AVTR1,
+    name: 'Abhay Adhikari',
     review: 'Always available to answer any questions. Very knowledgeable about the services they provide. Would recommend to anyone!'
   },
   {
     avatar: AVTR3,
-    name: 'Aman Khan',
+    name: 'Vikrant Dubey',
     review: "You have been absolutely wonderful for Kinship Center, and I can't thank you enough for all your tremendous skills and support. You will always be Kinship Center's vendor of choice!"
   },
   {
     avatar: AVTR4,
-    name: 'Sabiya Riaz',
+    name: 'Rishab Singh',
     review: "Great results. Enjoyable to work with, and most importantly, enabled us to have the presence on the web we needed to conduct business in today's market."
   }
 ]
